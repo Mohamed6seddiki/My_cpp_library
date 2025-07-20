@@ -110,7 +110,8 @@ Filtering & Searching<br>
 🚀 Usage<br><br>
 
 Simply include the header file in your C++ project:<br>
-cpp#include "Header.h"<br><br>
+
+#include "Header.h"<br><br>
 
 int main() {<br>
     // Example: Check if a number is prime<br>
