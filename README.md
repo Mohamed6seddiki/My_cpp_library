@@ -39,4 +39,95 @@ Input/Output Helpers<br><br>
 
 User Input Validation - Safe positive number input with validation<br>
 Formatted Output - Column separators and structured data display<br>
-Interactive Arrays - Dynamic array input from users<br>
+Interactive Arrays - Dynamic array input from users<br><br>
+
+📚 Function Categories<br><br>
+
+🔢 Number Theory & Mathematics<br>
+| Subcategory | Functions | Description |<br>
+|-------------|-----------|-------------|<br>
+| **Prime Numbers** | `CheckPrime()`, `CopyPrimeNumbers()` | Check primality and filter prime numbers |<br>
+| **Perfect Numbers** | `isPerfectNumber()`, `PrintPerfectNumbersFrom1ToN()` | Find perfect numbers (sum of divisors = number) |<br>
+| **Palindrome Check** | `IsPalindromeNumber()`, `IsPalindromeArray()` | Check if numbers/arrays read same forwards/backwards |<br><br>
+
+🧮 Digit Manipulation<br>
+| Function | Purpose |<br>
+|----------|---------|<br>
+| `PrintDigitsInReversedOrder()` | Print digits in reverse order |<br>
+| `SumOfDigits()` | Calculate sum of all digits |<br>
+| `ReverseNumber()` | Reverse the entire number |<br>
+| `CountDigitFrequency()` | Count frequency of specific digit |<br>
+| `PrintAllDigitsFrequencey()` | Show frequency of all digits (0-9) |<br>
+| `PrintDigits()` | Print each digit separately |<br><br>
+
+🎨 Pattern Generation<br>
+| Pattern Type | Functions |<br>
+|--------------|-----------|
+| **Number Patterns** | `PrintNumberPattern()`, `PrintInvertedNumberPattern()` |<br>
+| **Letter Patterns** | `PrintLetterPattern()`, `PrintInvertedLetterPattern()` |<br>
+| **Word Generation** | `PrintWordsFromAAAtoZZZ()` |<br><br>
+
+🔐 Security & Cryptography<br>
+| Feature | Functions | Usage |<br>
+|---------|-----------|-------|<br>
+| **Text Encryption** | `EncryptText()`, `DecryptText()` | Simple character-shift cipher |<br>
+| **Password Tools** | `ReadPassword()`, `GuessPassword()` | Password input and brute force simulation |<br>
+| **Key Generation** | `GenerateWord()`, `GenerateKey()`, `GenerateKeys()` | Generate random passwords and license keys |<br><br>
+
+🎲 Random Generation<br>
+| Type | Functions | Output |<br>
+|------|-----------|--------|
+| **Numbers** | `RandomNumber()` | Random integers in range |<br>
+| **Characters** | `GetRandomCharacter()` | Random chars by type (letter/digit/symbol) |<br>
+| **Arrays** | `FillArrayWithRandomNumbers()`, `ShuffleArray()` | Fill/shuffle arrays randomly |<br><br>
+
+📊 Array Operations<br><br>
+
+Basic Operations<br>
+| Function | Purpose |<br>
+|----------|---------|<br>
+| `ReadArray()` | Input array from user |<br>
+| `PrintArray()` | Display array elements |<br>
+| `FillArrayWith1toN()` | Fill array with consecutive numbers |<br>
+| `CopyArray()` | Copy entire array |<br>
+| `CopyArrayInReverseOrder()` | Copy array in reverse order |<br><br>
+
+Analysis & Statistics<br>
+| Function | Returns |<br>
+|----------|---------|<br>
+| `MaxNumberInArray()` | Maximum value |<br>
+| `MinNumberInArray()` | Minimum value |<br>
+| `SumArray()` | Sum of all elements |<br>
+| `ArrayAverage()` | Average of elements |<br>
+| `TimesRepeated()` | Frequency of specific number |<br><br>
+
+Filtering & Searching<br>
+| Function | Purpose |<br>
+|----------|---------|<br>
+| `CopyOnlyPrimeNumbers()` | Extract only prime numbers |<br>
+| `CopyOddNumbers()` | Extr<br>
+
+🚀 Usage<br><br>
+
+Simply include the header file in your C++ project:<br>
+cpp#include "Header.h"<br><br>
+
+int main() {<br>
+    // Example: Check if a number is prime<br>
+    if (CheckPrime(17) == Prime) <br>
+    {<br>
+        cout << "17 is prime!" << endl;<br>
+    }<br><br>
+    
+   //Example: Generate random keys<br>
+    GenerateKeys(5);<br><br>
+    
+   //Example: Work with arrays<br>
+    int arr[100];<br>
+    int length = 0;<br>
+    FillArrayWithRandomNumbers(arr, length);<br>
+    PrintArray(arr, length);<br><br>
+    
+   return 0;<br>
+}<br>
+
